@@ -1,5 +1,5 @@
 # 使用 CentOS 作为基础镜像
-FROM centos:latest
+FROM registry.cn-hangzhou.aliyuncs.com/centos/centos7:latest
 
 # 安装必要的软件包
 RUN yum -y update && yum -y install vim curl openssh-server vsftpd
